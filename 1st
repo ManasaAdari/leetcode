@@ -1,4 +1,4 @@
-#1st leetcode prblm was detecting the cycle in Linkedlist
+#1st leetcode prblm was detecting the cycle in Linkedlist on 06-03-24
 class cycle:
     def detecting(self,head):
         if not head:
