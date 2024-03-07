@@ -1,0 +1,9 @@
+#2nd leetcode problem was finding middle node in linkedlist
+class solution:
+    def middle(self,head):
+        slow=fast=head
+        while fast and fast.next:
+           slow=slow.next
+           fast=fast.next.next
+        return slow
+           
