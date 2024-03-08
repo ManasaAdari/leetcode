@@ -1,0 +1,13 @@
+#count maximum frequencies in a list and add,3005,condition list size would be less thanequal to 100
+def maxfreq(nums):
+    freq=[0]*101
+    maxf=0
+    ans=0
+    for i in nums:
+        freq[i]+=1
+        maxf=max(maxf,freq[i])#highest freq=2
+    for i in freq:#2 in freq
+        if i==maxf:
+            ans+=i
+    return ans
+    
